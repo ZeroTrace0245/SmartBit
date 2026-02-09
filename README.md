@@ -1,4 +1,4 @@
-# computer_project
+# SmartBit
 
 Blazor app with a mica/acrylic theme. Frontend, backend API, and shared defaults live in a single repo.
 
