@@ -14,7 +14,7 @@ SmartBite is a Blazor-based health companion that combines meal logging, water t
 - Water tracking: log intakes and get advice.
 - Shopping list: add, edit payment method, mark purchased, and delete items; checkout tracker simulation.
 - Feedback/contact: capture user feedback with UI entry points (feedback button/link).
-- Navigation/theme: sticky header, collapsible sidebar, light/dark theme via `IJSRuntime`.
+- Navigation/theme: sticky header, dark theme via `IJSRuntime`.
 
 ### Feature details
 **Dashboard & reports**
