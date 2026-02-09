@@ -77,7 +77,7 @@ computer_project.AppHost/         # Host/bootstrap
 ## Screenshots (placeholders)
 | View | Path |
 | --- | --- |
-| Dashboard | `docs/screenshots/dashboard.png` |
+| Dashboard | https://github.com/ZeroTrace0245/computer_project/blob/a15ee40981e070afaed2423ac34358b5aee90698/screenshots/Dashboard%20.mp4 |
 | Settings | `docs/screenshots/settings.png` |
 | Feedback | `docs/screenshots/feedback.png` |
 | Sharing flow | `docs/screenshots/share.png` |
