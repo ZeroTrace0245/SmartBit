@@ -30,9 +30,8 @@ SmartBite is a Blazor-based health companion that combines meal logging, water t
 **Water system**
 - Log water intakes and list recent entries.
 
-**Navigation & access control**
+**access control**
 - Role-aware rendering: admin badge, Settings page restricted to admins; consumers blocked from Settings.
-- Collapsible sidebar (mobile friendly) and sticky header actions (quick actions).
 
 
 ## Prerequisites
