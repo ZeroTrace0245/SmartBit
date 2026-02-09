@@ -26,14 +26,13 @@ SmartBite is a Blazor-based health companion that combines meal logging, water t
 - Add items with payment method tagging (cash, card, Apple/Google Pay).
 - Toggle purchased state, change payment, delete items inline.
 - Checkout tracker simulation with live status logs and progress checkpoints.
-- Search-aware filtering tied to session search query.
 
 **Water system**
 - Log water intakes and list recent entries.
 
 **Navigation & access control**
 - Role-aware rendering: admin badge, Settings page restricted to admins; consumers blocked from Settings.
-- Collapsible sidebar (mobile-friendly) and sticky header actions (quick actions).
+- Collapsible sidebar (mobile friendly) and sticky header actions (quick actions).
 
 
 ## Prerequisites
