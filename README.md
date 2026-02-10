@@ -55,10 +55,10 @@ cd SmartBit
 dotnet restore
 
 # Run API (adjust URL/port as needed)
-dotnet run --project (Path to the computer_projec.ApiService) (Eg-"G:\git\SmartBit\computer_project.ApiService")
+dotnet run --project computer_projec.ApiService
 
 # Run UI with hot reload
-dotnet watch --project (Path to the computer_project.Web) (Eg-"G:\git\SmartBit\computer_project.Web")
+dotnet watch --project computer_project.Web
 
 # To exit
 ctrl + C
