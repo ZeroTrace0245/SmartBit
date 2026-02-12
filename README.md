@@ -201,11 +201,11 @@ erDiagram
    ```
 4. Run the API:
    ```bash
-   dotnet run --project computer_project.ApiService
+   dotnet run --project ( Path to the computer_project.ApiService )
    ```
 5. Run the UI with hot reload:
    ```bash
-   dotnet watch --project computer_project.Web
+   dotnet watch --project ( Path to the computer_project.Web )
    ```
 
 ### Implemented Features
