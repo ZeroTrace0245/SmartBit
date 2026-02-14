@@ -1,10 +1,19 @@
 # Contributing to SmartBite
 
 > Contribution guide for the PUSL2021 Computing Group Project.
+> ⚠️ **Requires .NET 10 SDK.** Earlier SDK versions are not supported.
 
 ---
 
 ## Getting Started
+
+## Installing .NET 10 SDK (Mandatory) if installed Ignore this
+
+To install the .NET 10 SDK using Windows Package Manager (winget), run the following command in your terminal:
+
+```bash
+winget install Microsoft.DotNet.SDK.10
+
 
 1. Clone the repo and switch to a feature branch:
    ```bash
@@ -24,7 +33,7 @@
 
 ## Contribution Areas
 
-### Member 1 — Layout & Theming
+### Member 1 — Layout & Responsiveness (DGJKM Madugalla)
 **Goal**: Maintain the mica/acrylic visual identity and responsive layout.
 
 | File | Purpose |
@@ -39,7 +48,7 @@
 
 ---
 
-### Member 2 — Navigation & Routing
+### Member 2 — Theming Pipeline (Sathira lakshan)
 **Goal**: Keep sidebar navigation in sync with page routes.
 
 | File | Purpose |
@@ -54,7 +63,7 @@
 
 ---
 
-### Member 3 — Session & Role Management
+### Member 3 — Navigation & Routing (Rhls.dayananda)
 **Goal**: Manage login state, roles, and conditional UI rendering.
 
 | File | Purpose |
@@ -69,7 +78,7 @@
 
 ---
 
-### Member 4 — Meal Logging
+### Member 4 — Session State (KGSN Bandara)
 **Goal**: Meal CRUD and history display.
 
 | File | Purpose |
@@ -85,7 +94,7 @@
 
 ---
 
-### Member 5 — Water Tracking
+### Member 5 — Auth Flows (Athukoralage Pabasara)
 **Goal**: Water intake logging and history.
 
 | File | Purpose |
@@ -100,7 +109,7 @@
 
 ---
 
-### Member 6 — Shopping List & Checkout
+### Member 6 — Header Actions (Abekon Abekon)
 **Goal**: Grocery management with payment tagging and checkout tracker.
 
 | File | Purpose |
@@ -116,7 +125,7 @@
 
 ---
 
-### Member 7 — Dashboard & Reports
+### Member 7 — Profile Chip (D.M.Nisansala Niroshani)
 **Goal**: Summary cards, daily stats, and export.
 
 | File | Purpose |
@@ -132,7 +141,7 @@
 
 ---
 
-### Member 8 — Settings & Admin Panel
+### Member 8 — Feedback / Contact (BSB ABEYSOORIYA)
 **Goal**: Admin-only configuration and user management.
 
 | File | Purpose |
@@ -147,7 +156,7 @@
 
 ---
 
-### Member 9 — Feedback & Support
+### Member 9 — API Client & Database (Sachitha Rathnayaka)
 **Goal**: Contact/help entry point for users.
 
 | File | Purpose |
@@ -161,7 +170,7 @@
 
 ---
 
-### Member 10 — Database Design & Data Layer
+### Member 10 — Database Design & SQL (AMGG ADHIKARI)
 
 **Goal**: Design, maintain, and evolve the SQLite database schema and EF Core data layer.
 
@@ -218,15 +227,15 @@ dotnet ef database update --project computer_project.ApiService
 
 ## Quick Reference
 
-| Area | Primary Files | Owner |
-| --- | --- | --- |
-| Layout & Theming | `MainLayout.razor`, `app.css` | Member 1 |
-| Navigation & Routing | `NavMenu.razor`, page `@page` directives | Member 2 |
-| Session & Roles | `UserSession.cs`, `ConsumerOnly.razor` | Member 3 |
-| Meal Logging | `MealLogging.razor`, API `/meals` | Member 4 |
-| Water Tracking | `WaterTracking.razor`, API `/water` | Member 5 |
-| Shopping List | `ShoppingList.razor`, API `/shoppinglist` | Member 6 |
-| Dashboard & Reports | `Dashboard.razor`, `Reports.razor`, API `/stats` | Member 7 |
-| Settings & Admin | `Settings.razor`, API `/users`, `/goals` | Member 8 |
-| Feedback & Support | `Feedback.razor` | Member 9 |
-| Database Design | `AppDbContext.cs`, `Models.cs`, SQLite config | Member 10 |
+| No. | Area | Primary Files | Owner |
+| --- | --- | --- | --- |
+| 1 | Layout & responsiveness | `MainLayout.razor`, `MainLayout.razor.css`, `app.css` | [DGJKM Madugalla](https://github.com/kaveeshajanith10-afk) |
+| 2 | Theming pipeline | `MainLayout.razor`, `app.css`, `UserSession.cs` | [Sathira lakshan](https://github.com/Sathi-26) |
+| 3 | Navigation & routing | `NavMenu.razor`, `NavMenu.razor.css`, `app.css` | [Rhls.dayananda]((https://github.com/Lalindu01)) |
+| 4 | Session state | `UserSession.cs`, `MainLayout.razor` | [KGSN Bandara](https://github.com/sahannirmal1511) |
+| 5 | Auth flows | `Login.razor`, `Register.razor`, `Settings.razor`, `ConsumerOnly.razor`| [Athukoralage Pabasara](https://github.com/MashiAshi) |
+| 6 | Header actions | `MainLayout.razor` (quick actions), `SmartBiteApiClient.cs` | [Abekon Abekon](https://github.com/induwarasandeepa2006) |
+| 7 | Profile chip | `MainLayout.razor` (profile section), `UserSession.cs` | [D.M.Nisansala Niroshani](https://github.com/NisansalaDMN) |
+| 8 | Feedback / contact | `Feedback.razor`, `SmartBiteApiClient.cs`, `Program.cs`, `Models.cs` | [BSB ABEYSOORIYA](https://github.com/sithiraabey) |
+| 9 | API client & database | `SmartBiteApiClient.cs`, `Models.cs`, `Program.cs`, `AppDbContext.cs` | [Sachitha Rathnayaka](https://github.com/ZeroTrace0245) |
+| 10 | Database design & SQL | `AppDbContext.cs`, `Models.cs`, `Program.cs` (SQLite config + seed data) | [AMGG ADHIKARI](https://github.com/gihangimnath2003-glitch) |
