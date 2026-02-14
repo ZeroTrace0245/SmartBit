@@ -428,7 +428,7 @@ All tables satisfy 3NF: no non-key column transitively depends on the PK through
 ---
 
 ## Future Plans
-- **AI integration**: re-enable Google Gemini API for meal nutrition estimates, personalised recommendations, and hydration advice (API key was attempted but did not work during development).
+- **Google Gemini integration**: In a future release, the AI backend will be updated to support Google Gemini API as an alternative to AI Foundry Local, allowing cloud-based AI for users who prefer not to run models locally.
 - Migrate from SQLite to SQL Server or PostgreSQL for production-grade scalability.
 - Add ASP.NET Core Identity or token-based authentication with password hashing.
 - Implement multi-user session isolation (per-user data scoping).
@@ -436,3 +436,9 @@ All tables satisfy 3NF: no non-key column transitively depends on the PK through
 - Expand reports with trend charts and PDF/Excel export.
 - Improve offline/connection handling and reconnection UX.
 - Add push notifications for hydration and meal reminders.
+
+---
+
+## Contributing
+
+See [CONTRIBUTING.md](https://github.com/ZeroTrace0245/SmartBit/blob/master/docs/CONTRIBUTING.md) for the ownership quick-reference table and contributor details.
